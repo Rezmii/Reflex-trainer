@@ -1,0 +1,22 @@
+.div-menu {
+  width: 28%;
+}
+
+@media screen and (max-width: 1000px) {
+  .menu-flex {
+    flex-direction: column;
+  }
+  .div-menu {
+    height: 400px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .div-menu {
+    height: 400px;
+    width: 60%;
+  }
+  .div-menu p {
+    font-size: 200px;
+  }
+}
